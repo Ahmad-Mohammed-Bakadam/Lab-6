@@ -20,7 +20,7 @@ function doLike() {
 
 function doDislike() {
     dislikesCount++;
-    dislikeBtn.innerText = "👎 " + dislikesCountlikesCount
+    dislikeBtn.innerText = "👎 " + dislikesCount
     disableButtons();
     setCookie();
 }
